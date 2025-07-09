@@ -15,6 +15,7 @@ const items: NavItemProps[] =
     { url: "/sobre", label: "Sobre" },
     { url: "/contato", label: "Contato" },
     
+    
 ]
 
     const pathname = usePathname();
@@ -44,7 +45,7 @@ const items: NavItemProps[] =
                     ☰
                 </button>
             <button className="bnt-default">
-                Envie
+                <Link href="/envie">Envie</Link>
             </button>
             </nav>
         </header>
